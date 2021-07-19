@@ -1,4 +1,4 @@
-cd ~
+cd
 
 sudo apt update -y && sudo apt upgrade -y
 
@@ -20,7 +20,7 @@ cd bin
 
 ./sdkmanager --sdk_root=~/android "platforms;android-30" "platform-tools"
 
-cd ~
+cd
 
 echo "export ANDROID_HOME=~/android" >> ~/.bashrc
 
