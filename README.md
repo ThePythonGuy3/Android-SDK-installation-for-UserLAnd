@@ -1,8 +1,11 @@
 # Android-SDK-installation-for-UserLAnd
-On a Debian session on UserLAnd
+First, do `cd` to go to the root directory
+### Installing Java 15
+`wget https://github.com/ThePythonGuy3/Android-SDK-installation-for-UserLand/java.sh`
 
-`wget https://github.com/ThePythonGuy3/Android-SDK-installation-for-UserLand/main.sh`
+`./java.sh`
+### Installing the Android SDK
+`wget https://github.com/ThePythonGuy3/Android-SDK-installation-for-UserLand/android.sh`
 
-`./main.sh`
+`./android.sh`
 
-And that should be it.
