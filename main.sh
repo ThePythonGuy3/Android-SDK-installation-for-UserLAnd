@@ -22,9 +22,9 @@ cd bin
 
 cd ~
 
-echo "export ANDROID_HOME=~/android" >> .bashrc
+echo "export ANDROID_HOME=~/android" >> ~/.bashrc
 
-echo "export PATH=$PATH:$ANDROID_HOME/build-tools" >> .bashrc
+echo "export PATH=$PATH:$ANDROID_HOME/build-tools" >> ~/.bashrc
 
 export ANDROID_HOME=~/android
 
